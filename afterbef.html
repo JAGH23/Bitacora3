@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo 2.jpg" alt="Logo">
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Formularios</a>
+            <a href="Especificidad.html">Especificidad</a>
+            <a href="afterbef.html">After y before</a>
+            <a href="Colores.html">Colores</a>
+            <a href="header.html">Header</a>
+            <a href="Footer.html">Footer</a>
+        </nav>
+        <section>
+            <div class="seccion-arriba">
+                <h1>Pseudo-elementos after y before</h1>
+            </div>
+            <div class="seccion-izq">
+                <h2>Ideas principales</h2>
+                <div class="texto3">
+                    <p>¿Qué es lo que hacen?</p>
+                    <p>Valores de content</p>
+                    <p>::after</p>
+                    <p>::before</p>
+                </div>
+            </div>
+            <div class="seccion-der">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>
+                        Permiten insertar contenido en una pagina web desde CSS sin usar el HTML. Si bien no está en el
+                        documento, si aparece en la página. Se debe usar la propiedad "content" para especificar el
+                        contenido que se insertará.
+                    </p>
+                    <p>
+                        El valor de la propiedad content puede ser una cadena de carácteres (content:"texto";),
+                        imágenes(content:url(imagen.jpg);) o nada (content:"";)
+                    </p>
+                    <p>
+                        En texto los caracteres especiales deben estar especialmente codificados como una entidad
+                        unicode.
+                    </p>
+                    <p>
+                        En las imágenes no se altera el tamaño, por lo que se muestra el tamaño original.
+                    </p>
+                    <p>
+                        El content vacío resulta útil para insertar formas.
+                    </p>
+                    <p>
+                        El pseudo-elemento ::after sirve para insertar algo después de los
+                        elementos seleccionados.
+                    </p>
+                    <p>
+                        El pseudo-elemento ::before sirve para insertar algo antes de los
+                        elementos seleccionados.
+                    </p>
+                </div>
+                <a href="imagenes/afterbefore.png" target="_blank"><img src="imagenes/afterbefore.png"
+                        alt="After y before"></a>
+            </div>
+            <div class="seccion-abajo">
+                <h2>Resumen</h2>
+                <p class="texto4">
+                    Se explicó qué hacen los pseudo-elementos ::after y ::before. Se explicó la propiedad content y lo
+                    que se puede agregar al mismo.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
